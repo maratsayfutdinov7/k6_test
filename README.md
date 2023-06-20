@@ -17,15 +17,16 @@
 8. Поместить скаченный файл в созданную папку test_project
 9. В консоли перейти в папку `cd src`
 10. В скрипт package.json добавить команду "build: "webpack"
-     "scripts" : {
+
+    "scripts" : {
         "build: "webpack",   <---------- добавить данную строку с командой
         "test": "echo \ "Error: no test specifield\ "&& exit 1"
     }
-11. В папке test_project создать папку c наименованием src    
-12. Скачать с git файл scriptLoadTest.js
-13. Поместить скаченный файл в созданную папку src
-14. Перейти в папку src cd src
-15. Для сборки теста выполнить команду `npm run build`
+12. В папке test_project создать папку c наименованием src    
+13. Скачать с git файл scriptLoadTest.js
+14. Поместить скаченный файл в созданную папку src
+15. Перейти в папку src cd src
+16. Для сборки теста выполнить команду `npm run build`
 
     Если все выполнено верно в ответе придет:
     > tests@1.0.0 build
@@ -36,6 +37,6 @@
     ./src/scriptLoadTest.js + 2 modules 3.18 KiB [not cacheable] [built] [code generated]
     webpack 5.87.0 compiled successfully in 680 ms
 
-16. Для запуска теста необходимо выполнить команду `$ k6 run "Путь до папки - \test_project\src\scriptLoadTest.js"` (обязательно в ковычках)
+17. Для запуска теста необходимо выполнить команду `$ k6 run "Путь до папки - \test_project\src\scriptLoadTest.js"` (обязательно в ковычках)
 
 Ожидание 5 минут.. далее появится результат тестирования.
