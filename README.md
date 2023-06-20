@@ -19,8 +19,8 @@
 10. В скрипт package.json добавить команду "build: "webpack"
 
     "scripts" : {
-        <hr>"build: "webpack",   <---------- добавить данную строку с командой
-        <hr>"test": "echo \ "Error: no test specifield\ "&& exit 1"
+        <b>"build: "webpack",   <---------- добавить данную строку с командой
+        <b>"test": "echo \ "Error: no test specifield\ "&& exit 1"
     }
 12. В папке test_project создать папку c наименованием src    
 13. Скачать с git файл scriptLoadTest.js
