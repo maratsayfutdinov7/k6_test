@@ -2,7 +2,8 @@
 1. Открыть git bash
 2. Создать папку `mkdir .test_project`
 3. Перейти в папку `cd test_project`
-4. Установить необходимые пакеты:
+4. Выполнить команду npm init -y
+5. Установить необходимые пакеты:
 
    `npm install --save-dev \
       webpack \
