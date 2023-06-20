@@ -4,6 +4,7 @@
 3. Перейти в папку $ cd example_project
 4. Выполнить команду $ npm init -y
 5. Установить необходимые пакеты:
+
    npm install --save-dev \
       webpack \
       webpack-cli \
@@ -12,5 +13,6 @@
       @babel/core \
       @babel/preset-env \
       core-js
-6. Для сборки теста выполнить команду npm run build (предварительно находясь в папке /src)
-7. Для запуска теста необходимо выполнить команду $ k6 run "Путь до папки - \test_project\src\scriptLoadTest.js" (обязательно в ковычках)
+
+7. Для сборки теста выполнить команду npm run build (предварительно находясь в папке /src)
+8. Для запуска теста необходимо выполнить команду $ k6 run "Путь до папки - \test_project\src\scriptLoadTest.js" (обязательно в ковычках)
